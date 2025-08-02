@@ -5,7 +5,7 @@
   
   A full-stack real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js) and Socket.IO for real-time communication.
   
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-4CAF50?style=for-the-badge&logo=vercel&logoColor=white)](https://your-frontend-url.vercel.app)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-4CAF50?style=for-the-badge&logo=vercel&logoColor=white)](https://pulse-chat-henna.vercel.app/)
   [![Backend API](https://img.shields.io/badge/Backend%20API-4285F4?style=for-the-badge&logo=render&logoColor=white)](https://pulsechat-kqoq.onrender.com)
   
   ![Tech Stack](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -39,7 +39,7 @@ Check out the live demo:
 
 | Login Screen | Chat Interface |
 |--------------|----------------|
-| ![Login](https://via.placeholder.com/400x600/1a202c/ffffff?text=Login+Screen) | ![Chat](https://via.placeholder.com/400x600/2d3748/ffffff?text=Chat+Interface) |
+| ![Login](./frontend/public/pulsechat.png) | ![Chat](./frontend/public/chat-interfae.png) |
 
 ## 🚀 Quick Start
 

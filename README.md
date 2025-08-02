@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./frontend/public/pulsechat.png" alt="PULSECHAT Logo" width="200"/>
+  <img src="./frontend/public/pulsechat.png" alt="PULSECHAT Logo" width="400" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
   
   # 🚀 PULSECHAT - Real-time Chat Application
 

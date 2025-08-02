@@ -39,7 +39,7 @@ Check out the live demo:
 
 | Login Screen | Chat Interface |
 |--------------|----------------|
-| ![Login](./frontend/public/pulsechat.png) | ![Chat](./frontend/public/chat-interfae.png) |
+| ![Login](https://raw.githubusercontent.com/AdityaShukla2315/PulseChat/master/frontend/public/pulsechat.png) | ![Chat](https://raw.githubusercontent.com/AdityaShukla2315/PulseChat/master/frontend/public/chat-interface.png) |
 
 ## 🚀 Quick Start
 

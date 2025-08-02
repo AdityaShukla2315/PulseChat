@@ -37,13 +37,21 @@ app.options('*', cors());
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
+// Serve frontend static files in production
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../frontend/dist")));
-
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
+  // Serve static files from the frontend build directory
+  app.use(express.static(path.join(__dirname, "../../frontend/dist")));
+  
+  // Handle SPA routing - return index.html for all routes
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../../frontend/dist/index.html'));
   });
 }
+
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
 
 server.listen(PORT, () => {
   console.log("server is running on PORT:" + PORT);

@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern Dark Theme Variables */
+:root {
+  --chat-bg-opacity: 0.05;
+}
+
+[data-theme="dark"] {
+  --chat-bg-opacity: 0.03;
+}
+
+/* Modern chat background */
+.chat-bg {
+  background-image: url('/whatsapp-bg-light.png');
+  background-repeat: repeat;
+  background-size: 400px;
+  opacity: var(--chat-bg-opacity);
+}
+
+[data-theme="dark"] .chat-bg {
+  background-image: url('/whatsapp-bg-dark.png');
+}
+
+/* Modern scrollbar for dark theme */
+[data-theme="dark"] ::-webkit-scrollbar {
+  width: 6px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.3);
+  border-radius: 3px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.5);
+}
+
+/* Modern glass effect for dark theme */
+.glass-dark {
+  background: rgba(17, 24, 39, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(55, 65, 81, 0.3);
+}
